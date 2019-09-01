@@ -3,25 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A34180B20E634637A616719 /* Pods_TransactionConfirmation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06526ED511765A89794BBB55 /* Pods_TransactionConfirmation.framework */; };
 		C1F642B7231BA1C600E8082D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642B6231BA1C600E8082D /* AppDelegate.swift */; };
-		C1F642B9231BA1C600E8082D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642B8231BA1C600E8082D /* ViewController.swift */; };
+		C1F642B9231BA1C600E8082D /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642B8231BA1C600E8082D /* FormViewController.swift */; };
 		C1F642BC231BA1C600E8082D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F642BA231BA1C600E8082D /* Main.storyboard */; };
 		C1F642BE231BA1C700E8082D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F642BD231BA1C700E8082D /* Assets.xcassets */; };
 		C1F642C1231BA1C700E8082D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F642BF231BA1C700E8082D /* LaunchScreen.storyboard */; };
+		C1F642C9231BA1D700E8082D /* UserAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642C8231BA1D700E8082D /* UserAuthentication.swift */; };
+		C1F642CE231BB14100E8082D /* SignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642CD231BB14100E8082D /* SignatureView.swift */; };
+		C1F642D0231BB8B800E8082D /* SignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642CF231BB8B800E8082D /* SignatureViewController.swift */; };
+		C1F642D3231BB99B00E8082D /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642D2231BB99B00E8082D /* ExtensionUIView.swift */; };
+		C1F642D5231BBB4C00E8082D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642D4231BBB4C00E8082D /* Protocols.swift */; };
+		C1F642D8231BBF6B00E8082D /* SubmitPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642D7231BBF6B00E8082D /* SubmitPDFViewController.swift */; };
+		C1F642DB231BEB0400E8082D /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642DA231BEB0400E8082D /* NotificationNameExtension.swift */; };
+		C1F642DD231BEC8200E8082D /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642DC231BEC8200E8082D /* Contants.swift */; };
+		C1F642DF231BF86200E8082D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642DE231BF86200E8082D /* Utility.swift */; };
+		C1F642E2231C1D0000E8082D /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F642E1231C1D0000E8082D /* SpinnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06526ED511765A89794BBB55 /* Pods_TransactionConfirmation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransactionConfirmation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A3B73AFE2B0CC3FE37D1F8 /* Pods-TransactionConfirmation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionConfirmation.debug.xcconfig"; path = "Target Support Files/Pods-TransactionConfirmation/Pods-TransactionConfirmation.debug.xcconfig"; sourceTree = "<group>"; };
 		C1F642B3231BA1C600E8082D /* TransactionConfirmation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransactionConfirmation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F642B6231BA1C600E8082D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1F642B8231BA1C600E8082D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1F642B8231BA1C600E8082D /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		C1F642BB231BA1C600E8082D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1F642BD231BA1C700E8082D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F642C0231BA1C700E8082D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F642C2231BA1C700E8082D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F642C8231BA1D700E8082D /* UserAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthentication.swift; sourceTree = "<group>"; };
+		C1F642CD231BB14100E8082D /* SignatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureView.swift; sourceTree = "<group>"; };
+		C1F642CF231BB8B800E8082D /* SignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureViewController.swift; sourceTree = "<group>"; };
+		C1F642D2231BB99B00E8082D /* ExtensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		C1F642D4231BBB4C00E8082D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		C1F642D7231BBF6B00E8082D /* SubmitPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitPDFViewController.swift; sourceTree = "<group>"; };
+		C1F642DA231BEB0400E8082D /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		C1F642DC231BEC8200E8082D /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		C1F642DE231BF86200E8082D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		C1F642E1231C1D0000E8082D /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		FB3F0E0E07AE6EAE6C6A8ED1 /* Pods-TransactionConfirmation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransactionConfirmation.release.xcconfig"; path = "Target Support Files/Pods-TransactionConfirmation/Pods-TransactionConfirmation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A34180B20E634637A616719 /* Pods_TransactionConfirmation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FCEBD8E651EE5429AF756FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6A3B73AFE2B0CC3FE37D1F8 /* Pods-TransactionConfirmation.debug.xcconfig */,
+				FB3F0E0E07AE6EAE6C6A8ED1 /* Pods-TransactionConfirmation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C1F642AA231BA1C600E8082D = {
 			isa = PBXGroup;
 			children = (
 				C1F642B5231BA1C600E8082D /* TransactionConfirmation */,
 				C1F642B4231BA1C600E8082D /* Products */,
+				4FCEBD8E651EE5429AF756FF /* Pods */,
+				D1C68D601030E0D52454C9CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,56 @@
 		C1F642B5231BA1C600E8082D /* TransactionConfirmation */ = {
 			isa = PBXGroup;
 			children = (
+				C1F642D6231BBC6400E8082D /* ViewController */,
+				C1F642D1231BB98900E8082D /* Extensions */,
+				C1F642CC231BB13400E8082D /* Common */,
 				C1F642B6231BA1C600E8082D /* AppDelegate.swift */,
-				C1F642B8231BA1C600E8082D /* ViewController.swift */,
 				C1F642BA231BA1C600E8082D /* Main.storyboard */,
 				C1F642BD231BA1C700E8082D /* Assets.xcassets */,
 				C1F642BF231BA1C700E8082D /* LaunchScreen.storyboard */,
 				C1F642C2231BA1C700E8082D /* Info.plist */,
 			);
 			path = TransactionConfirmation;
+			sourceTree = "<group>";
+		};
+		C1F642CC231BB13400E8082D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C1F642C8231BA1D700E8082D /* UserAuthentication.swift */,
+				C1F642CD231BB14100E8082D /* SignatureView.swift */,
+				C1F642D4231BBB4C00E8082D /* Protocols.swift */,
+				C1F642DC231BEC8200E8082D /* Contants.swift */,
+				C1F642DE231BF86200E8082D /* Utility.swift */,
+				C1F642E1231C1D0000E8082D /* SpinnerViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C1F642D1231BB98900E8082D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1F642D2231BB99B00E8082D /* ExtensionUIView.swift */,
+				C1F642DA231BEB0400E8082D /* NotificationNameExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C1F642D6231BBC6400E8082D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C1F642B8231BA1C600E8082D /* FormViewController.swift */,
+				C1F642CF231BB8B800E8082D /* SignatureViewController.swift */,
+				C1F642D7231BBF6B00E8082D /* SubmitPDFViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D1C68D601030E0D52454C9CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06526ED511765A89794BBB55 /* Pods_TransactionConfirmation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1F642C5231BA1C700E8082D /* Build configuration list for PBXNativeTarget "TransactionConfirmation" */;
 			buildPhases = (
+				EC75CC1362DA4D492DBEB92D /* [CP] Check Pods Manifest.lock */,
 				C1F642AF231BA1C600E8082D /* Sources */,
 				C1F642B0231BA1C600E8082D /* Frameworks */,
 				C1F642B1231BA1C600E8082D /* Resources */,
+				561D19C24888D094A10ACB8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +210,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		561D19C24888D094A10ACB8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TransactionConfirmation/Pods-TransactionConfirmation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TransactionConfirmation/Pods-TransactionConfirmation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TransactionConfirmation/Pods-TransactionConfirmation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC75CC1362DA4D492DBEB92D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TransactionConfirmation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1F642AF231BA1C600E8082D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F642B9231BA1C600E8082D /* ViewController.swift in Sources */,
+				C1F642DB231BEB0400E8082D /* NotificationNameExtension.swift in Sources */,
+				C1F642D3231BB99B00E8082D /* ExtensionUIView.swift in Sources */,
+				C1F642D0231BB8B800E8082D /* SignatureViewController.swift in Sources */,
+				C1F642DF231BF86200E8082D /* Utility.swift in Sources */,
+				C1F642E2231C1D0000E8082D /* SpinnerViewController.swift in Sources */,
+				C1F642D5231BBB4C00E8082D /* Protocols.swift in Sources */,
+				C1F642C9231BA1D700E8082D /* UserAuthentication.swift in Sources */,
+				C1F642B9231BA1C600E8082D /* FormViewController.swift in Sources */,
+				C1F642D8231BBF6B00E8082D /* SubmitPDFViewController.swift in Sources */,
+				C1F642DD231BEC8200E8082D /* Contants.swift in Sources */,
 				C1F642B7231BA1C600E8082D /* AppDelegate.swift in Sources */,
+				C1F642CE231BB14100E8082D /* SignatureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +412,13 @@
 		};
 		C1F642C6231BA1C700E8082D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A3B73AFE2B0CC3FE37D1F8 /* Pods-TransactionConfirmation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M9V5ETJE2;
 				INFOPLIST_FILE = TransactionConfirmation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +432,13 @@
 		};
 		C1F642C7231BA1C700E8082D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3F0E0E07AE6EAE6C6A8ED1 /* Pods-TransactionConfirmation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9M9V5ETJE2;
 				INFOPLIST_FILE = TransactionConfirmation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

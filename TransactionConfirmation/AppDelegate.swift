@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  TransactionConfirmation
 //
-//  Created by Yasheed Muhammed on 9/1/19.
+//  Created by Karunanithi Veerappan on 9/1/19.
 //  Copyright © 2019 Karunanithi. All rights reserved.
 //
 
 import UIKit
+import SwiftyDropbox
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        DropboxClientsManager.setupWithAppKey("3a8rd7dqp5kiq3u")
         // Override point for customization after application launch.
         return true
     }
@@ -41,6 +43,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if let authResult = DropboxClientsManager.handleRedirectURL(url) {
+            let response: DropBoxResponse
+            switch authResult {
+            case .success:
+                response = .success
+            case .cancel:
+                response = .cancelled
+            case .error(_, let description):
+                response = .error(value: description)
+            }
+            let userInfo = ["response": response]
+            NotificationCenter.default.post(name: .dropBoxResponse, object: nil, userInfo: userInfo)
+        }
+        return true
+    }
 }
 
